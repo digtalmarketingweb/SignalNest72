@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SignalNest — Customer Support SaaS</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Outfit,sans-serif;background:#fffaf5;color:#17242a;line-height:1.6}
+.container{width:92%;max-width:1180px;margin:auto}
+header{background:linear-gradient(135deg,#d9f6ee,#fffaf5);padding:24px 0 80px}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:800;color:#087f73}
+.logo span{color:#ff8066}
+nav ul{display:flex;gap:26px;list-style:none}
+.btn{background:#087f73;color:#fff;padding:12px 22px;border-radius:12px;text-decoration:none;font-weight:700}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;padding-top:60px}
+h1{font-size:64px;line-height:1}
+h1 span{color:#087f73}
+.hero p{margin:22px 0;color:#66757a}
+.mockup{background:#fff;border-radius:22px;border:1px solid #e6ece9;box-shadow:0 18px 50px rgba(0,0,0,.08);overflow:hidden}
+.topbar{background:#17242a;color:#fff;padding:12px 18px;font-size:12px;display:flex;justify-content:space-between}
+.body{display:grid;grid-template-columns:130px 1fr}
+.sidebar{background:#1f3138;color:#b8c6c5;padding:18px}
+.sidebar div{padding:10px;border-radius:8px;margin:6px 0}
+.sidebar .active{background:#087f73;color:#fff}
+.content{padding:18px}
+.ticket{border:1px solid #e5e8e6;border-radius:12px;padding:12px;margin-top:12px}
+.badge{display:inline-block;background:#d9f6ee;color:#087f73;border-radius:30px;padding:4px 10px;font-size:11px;font-weight:700}
+section{padding:80px 0}
+.title{text-align:center;margin-bottom:40px}
+.title h2{font-size:42px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid #e8ece9;border-radius:18px;padding:24px}
+.icon{width:52px;height:52px;border-radius:14px;background:#d9f6ee;color:#087f73;display:grid;place-items:center;font-size:22px;margin-bottom:16px}
+.alt{background:#ffe7df;color:#ff8066}
+.dark{background:#17242a;color:#fff}
+.dark .step{background:#24363d;border-radius:16px;padding:20px;margin:14px 0}
+.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.plan{background:#fff;border:1px solid #e8ece9;border-radius:20px;padding:28px}
+.featured{background:#087f73;color:#fff;transform:translateY(-8px)}
+.price{font-size:46px;font-weight:800;margin:12px 0}
+footer{background:#17242a;color:#c7d2d4;padding:26px;text-align:center}
+@media(max-width:900px){.hero,.grid,.pricing{grid-template-columns:1fr}h1{font-size:46px}nav ul{display:none}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<nav>
+<div class="logo">Signal<span>Nest</span></div>
+<ul><li>Features</li><li>Inbox</li><li>Pricing</li></ul>
+<a class="btn" href="#">Start Free</a>
+</nav>
+<div class="hero">
+<div>
+<p style="color:#087f73;font-weight:700;letter-spacing:1px">CUSTOMER SUPPORT SAAS</p>
+<h1>Support that feels <span>human.</span></h1>
+<p>SignalNest helps modern businesses manage email, chat, customer history, AI replies and knowledge base from one beautiful workspace.</p>
+<a class="btn" href="#">Get Started</a>
+</div>
+<div class="mockup">
+<div class="topbar"><span>Support Inbox</span><span>14 Agents Online</span></div>
+<div class="body">
+<div class="sidebar">
+<div class="active">Inbox</div><div>Customers</div><div>AI</div><div>Reports</div>
+</div>
+<div class="content">
+<strong>Today's Tickets</strong>
+<div class="ticket"><b>Checkout Issue</b><p>Customer can't access upgraded plan.</p><span class="badge">Open</span></div>
+<div class="ticket"><b>Invoice Request</b><p>Need monthly billing PDF.</p><span class="badge">Assigned</span></div>
+<div class="ticket"><b>API Error</b><p>Webhook stopped syncing events.</p><span class="badge" style="background:#ffe7df;color:#ff8066">Urgent</span></div>
+</div></div></div></div></div></header>
+
+<section><div class="container">
+<div class="title"><h2>Everything your support team needs</h2><p>Designed for startups and SaaS companies.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">✉</div><h3>Shared Inbox</h3><p>Manage email, chat and contact requests in one place.</p></div>
+<div class="card"><div class="icon alt">⚡</div><h3>AI Replies</h3><p>Generate fast, personalized responses with AI assistance.</p></div>
+<div class="card"><div class="icon">📚</div><h3>Knowledge Base</h3><p>Create searchable help articles for customers and agents.</p></div>
+<div class="card"><div class="icon alt">🔄</div><h3>Automation</h3><p>Auto-route tickets by priority and department.</p></div>
+<div class="card"><div class="icon">👥</div><h3>Customer Profiles</h3><p>See complete conversation history instantly.</p></div>
+<div class="card"><div class="icon alt">📈</div><h3>Analytics</h3><p>Track response time, CSAT and team performance.</p></div>
+</div></div></section>
+
+<section class="dark"><div class="container">
+<div class="title"><h2>Support workflow</h2><p>Resolve issues faster with intelligent automation.</p></div>
+<div class="step"><b>1. Capture</b><p>Collect messages from every support channel.</p></div>
+<div class="step"><b>2. Route</b><p>Assign tickets automatically to the right agent.</p></div>
+<div class="step"><b>3. Resolve</b><p>Use AI suggestions and customer context to solve faster.</p></div>
+</div></section>
+
+<section><div class="container">
+<div class="title"><h2>Simple Pricing</h2><p>Flexible plans for growing support teams.</p></div>
+<div class="pricing">
+<div class="plan"><h3>Starter</h3><div class="price">$29</div><p>Shared Inbox • Knowledge Base • Reports</p></div>
+<div class="plan featured"><h3>Growth</h3><div class="price">$69</div><p>AI Replies • Automation • Analytics • Unlimited Agents</p></div>
+<div class="plan"><h3>Enterprise</h3><div class="price">Custom</div><p>SSO • Advanced Permissions • Dedicated Support</p></div>
+</div></div></section>
+
+<footer>
+<div class="container">© 2026 SignalNest • Customer Support SaaS • 565772.shop</div>
+</footer>
+</body>
+</html>
